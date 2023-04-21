@@ -1,0 +1,74 @@
+/* Define a style for the header */
+header {
+    background-color: #bba4eb;
+    color: white;
+    font-weight: bold; 
+	font-family: 'Courier New', Courier, monospace
+  }
+  
+  /* Define a style for the h1 tag */
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Define a style for the navigation links */
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+	font-family:Cambria, "Times New Roman", serif;
+  }
+  
+  nav a:hover {
+    color: gray;
+  }
+  
+  /* Define a style for the h5 tag */
+  h5 {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #2c3ab8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  /* Define a style for the Tableau placeholder div */
+  .tableauPlaceholder {
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  /* Define a style for the first positioned div */
+  #firstDiv {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #eee;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+  
+  /* Define a style for the second positioned div */
+  #secondDiv {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #e15cac;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+  }
+  
+  /* Define a style for the third positioned div */
+  #thirdDiv {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #65a9f1;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
+  
+
